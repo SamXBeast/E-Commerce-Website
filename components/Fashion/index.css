@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Nunito+Sans:opsz@6..12&family=Ubuntu:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    box-shadow: 5rem 0.25rem rgb(123 56 50 / 15%);
+    align-items: center;
+    background-color: #9336B4;
+    color: #ffffff;
+    justify-content: space-evenly;
+}
+
+
+
+.nav-img {
+    margin-left: 11%;
+    width: 36%;
+    margin-top: 2%;
+
+}
+
+.nav_container {
+    font-family: Ubuntu;
+    margin-left: 20px;
+    padding: 3em 3em;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+}
+
+.nav_container a {
+    color: #ffffff;
+    text-decoration: none;
+    font: 20px Ubuntu;
+    margin: 0px 10px;
+    padding: 6px 10px;
+    position: relative;
+    /* z-index: 0; */
+    cursor: pointer;
+}
+
+.nav_container a:hover {
+    color: orange;
+    font-size: 4rem solid;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(174, 167, 169);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #3559E0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #ffffff;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.tools {
+    display: flex;
+    margin: 50px;
+    gap: 35px;
+
+}
+
+.accounts {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.accounts a {
+    text-decoration: none;
+    color: #ffffff;
+    font: 20px Ubuntu;
+}
+
+.accounts i {
+    font-size: 30px;
+    margin-left: 24px;
+}
+
+.accounts a:hover {
+    color: orange;
+    font-size: 4rem solid;
+}
+
+.wishlist {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.wishlist i {
+    font-size: 30px;
+}
+
+.wishlist i:hover {
+    color: #F11A7B;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+.cart i:hover {
+    color: orange;
+}

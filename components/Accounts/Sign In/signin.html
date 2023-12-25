@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopGen-Login</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/images/logo.png">
+</head>
+
+<body>
+    <nav id="nav">
+        <div>
+            <a href="/index.html">
+                <img src="/images/logo.png" class="nav-img" alt="Error" />
+            </a>
+        </div>
+        <div class="nav_container">
+            <a href="/index.html#nav">HOME</a>
+            <a href="/index.html#division-2">CATEGORIES</a>
+            <a href="/index.html#division-4">ZOD</a>
+            <a href="/index.html#division-3">ABOUT</a>
+
+        </div>
+        <div class="nav-search">
+            <input placeholder="  Search" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="tools">
+            <a href="">
+                <div class="accounts">
+                    <i class="fa-regular fa-circle-user"></i>
+                    Accounts
+                    <div class="dropdown-content">
+                        <a href="/components/Accounts/Sign In/signin.html">Login</a>
+                        <a href="/components/Accounts/Sign Up/signup.html">Sign UP</a>
+                        <a href="#">Orders</a>
+                    </div>
+            </a>
+        </div>
+        <div class="wishlist">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        </div>
+        </div>
+
+    </nav>
+    <div class="login-wrapper">
+        <div class="login-side">
+            <a href="#" title="Logo">
+                <img class="logo" src="/images/logo.png" alt="Logo">
+            </a>
+            <div class="my-form__wrapper">
+                <div class="login-welcome-row">
+                    <br>
+                    <h1>Welcome back &#x1F44F;</h1>
+                    <p>Please enter your details!</p>
+                </div>
+                <form class="my-form">
+                    <div class="socials-row">
+                        <a
+                            href="#"
+                            title="Use Google"
+                        >
+                            <img src="/images/google.png" alt="Google">
+                            Log in with Google
+                        </a>
+                        <a
+                            href="#"
+                            title="Use Apple"
+                        >
+                            <img src="/images/apple.png" alt="Apple">
+                            Log in with Apple
+                        </a>
+                    </div>
+                    <div class="divider">
+                        <div class="divider-line"></div>
+                        Or
+                        <div class="divider-line"></div>
+                    </div>
+                    <div class="text-field">
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email"
+                            required
+                        >
+                        <img
+                            alt="Email Icon"
+                            title="Email Icon"
+                            src="/images/email.svg"
+                        >
+                    </div>
+                    <div class="text-field">
+                        <label for="password">Password:</label>
+                        <input
+                            id="password"
+                            type="password"
+                            name="password"
+                            placeholder="Your Password"
+                            title="Minimum 6 characters at 
+                                least 1 Alphabet and 1 Number"
+                            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+                            required
+                        >
+                        <img
+                            alt="Password Icon"
+                            title="Password Icon"
+                            src="/images/password.svg"
+                        >
+                    </div>
+                    <input type="submit" class="my-form__button" value="Login">
+                    <div class="my-form__actions">
+                        <div class="my-form__row">
+                            <span>Did you forget your password?</span>
+                            <a href="#" title="Reset Password">
+                                Reset Password
+                            </a>
+                        </div>
+                        <div class="my-form__signup">
+                            <a href="/components/Accounts/Sign Up/signup.html" title="Create Account">
+                                Create Account
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>    
+
+</body>
+<script src="signin.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+
+</html>
